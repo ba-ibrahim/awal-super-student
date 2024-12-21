@@ -72,7 +72,7 @@ export default function Profil() {
     const authToken = await localStorage.getItem("authToken"); 
     try {
         // Make PUT request to the backend to update profile picture
-        const response = await axios.put(`${apiUrl}/api/v1/user/updateProfilePicture`, formData, {
+        const response = await axios.post(`${apiUrl}/api/v1/user/updateProfilePicture`, formData, {
             headers: {
                 "Content-Type": "multipart/form-data",
                 "Authorization": `Bearer ${authToken}`, // Attach auth token (if using JWT)
