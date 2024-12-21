@@ -1,0 +1,86 @@
+/* CSS for Login Page */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7fafc; /* bg-gray-100 */
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 28rem; /* max-w-md */
+  }
+  
+  .login-title {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 700; /* font-bold */
+    margin-bottom: 2rem; /* mb-8 */
+    text-align: center;
+    color: #2d3748; /* text-gray-800 */
+  }
+  
+  .error-message {
+    margin-bottom: 1rem; /* mb-4 */
+    color: #e53e3e; /* text-red-600 */
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem; /* mb-6 */
+  }
+  
+  .label {
+    display: block;
+    font-size: 1rem; /* text-gray-600 */
+    font-weight: 500; /* font-medium */
+    margin-bottom: 0.5rem; /* mb-2 */
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    border: 1px solid #e2e8f0; /* border */
+    border-radius: 0.375rem; /* rounded-md */
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #4299e1; /* focus:ring-blue-500 */
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5); /* focus:ring-2 */
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #4299e1; /* bg-blue-500 */
+    color: white;
+    padding: 0.5rem 1rem; /* py-2 */
+    border-radius: 0.375rem; /* rounded-md */
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #3182ce; /* hover:bg-blue-600 */
+  }
+  
+  .register-link {
+    display: block;
+    text-align: center;
+    color: #4a5568; /* text-gray-600 */
+    margin-top: 1.5rem; /* mt-6 */
+  }
+  
+  .register-link a {
+    color: #3182ce; /* text-blue-500 */
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline; /* hover:underline */
+  }
+  

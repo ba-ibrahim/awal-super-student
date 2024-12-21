@@ -1,0 +1,12 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    
+}
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; background-color: rgb(222, 222, 222); position: relative; }
+.div2 { grid-area: 1 / 2 / 2 / 19; }

@@ -1,0 +1,15 @@
+.meetings {
+    padding: 20px;
+}
+
+.meetings-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
